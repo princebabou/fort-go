@@ -11,17 +11,69 @@ FortiCore is an automated Penetration Testing Tool (PTT) designed to simplify pe
 
 ## Installation
 
-### Prerequisites
+### Automatic Installation
+
+#### Linux/macOS
+
+```bash
+# Download the installation script
+curl -O https://raw.githubusercontent.com/princebabou/fort-go/main/install.sh
+
+# Make it executable
+chmod +x install.sh
+
+# Run the installation script
+./install.sh
+```
+
+#### Windows
+
+```powershell
+# Download the installation script
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/princebabou/fort-go/main/install.bat -OutFile install.bat
+
+# Run the installation script
+.\install.bat
+```
+
+### Manual Installation
+
+#### Prerequisites
 
 - Go 1.20 or later
 - Git
 
-### Building from source
+#### Building from source
 
 ```bash
 git clone https://github.com/princebabou/fort-go.git
 cd fort-go
 go build -o fort ./cmd/fort
+```
+
+## Uninstallation
+
+### Linux/macOS
+
+```bash
+# Download the uninstallation script
+curl -O https://raw.githubusercontent.com/princebabou/fort-go/main/uninstall.sh
+
+# Make it executable
+chmod +x uninstall.sh
+
+# Run the uninstallation script
+./uninstall.sh
+```
+
+### Windows
+
+```powershell
+# Download the uninstallation script
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/princebabou/fort-go/main/uninstall.bat -OutFile uninstall.bat
+
+# Run the uninstallation script
+.\uninstall.bat
 ```
 
 ## Usage
