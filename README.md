@@ -19,7 +19,7 @@ FortiCore is an automated Penetration Testing Tool (PTT) designed to simplify pe
 ### Building from source
 
 ```bash
-git clone https://github.com/forticore/fort-go.git
+git clone https://github.com/princebabou/fort-go.git
 cd fort-go
 go build -o fort ./cmd/fort
 ```
